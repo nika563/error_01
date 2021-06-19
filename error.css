@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #0414a7;
+  font-family: "VT323";
+}
+
+@font-face {
+  font-family: "VT323";
+  font-display: swap;
+  src: url("VT323/VT323-Regular.ttf");
+  src: local("O"), url("VT323/VT323-Regular.ttf") format("truetype"), url("VT323/VT323-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.blue button {
+  border: none;
+  text-align: center;
+  margin-left: 600px;
+  margin-top: 100px;
+}
+.blue button p {
+  font-size: 50px;
+  background-color: #e0e2f4;
+  padding: 5px 10px 5px 10px;
+  color: #0414a7;
+}
+.blue button:focus {
+  outline: none;
+  border: none;
+}
+.blue .header {
+  color: white;
+  font-size: 25px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.blue .p1 {
+  margin-left: 400px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.blue .p1 a {
+  color: white;
+}
+.blue .p2 {
+  margin-left: 400px;
+  color: white;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.blue .p3 {
+  margin-left: 860px;
+  margin-top: 50px;
+  font-size: 18px;
+}
+.blue .p3 a {
+  color: white;
+  text-decoration: none;
+}
+.blue .p3:hover a {
+  background-color: #e0e2f4;
+  color: #0414a7;
+  padding: 5px 10px 5px 10px;
+}
+.blue .p4 {
+  color: white;
+  margin-left: 910px;
+  margin-top: -15.5px;
+}
+.blue .p5 {
+  color: white;
+  color: white;
+  margin-left: 930px;
+  margin-top: -15.5px;
+}
+.blue .p6 {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .blue button {
+    border: none;
+    text-align: center;
+    margin-left: 145px;
+    margin-top: 30px;
+  }
+  .blue button p {
+    font-size: 70px;
+    background-color: #e0e2f4;
+    padding: 5px 10px 5px 10px;
+    color: #0414a7;
+  }
+  .blue button:focus {
+    outline: none;
+    border: none;
+  }
+  .blue .header {
+    color: white;
+    font-size: 18px;
+    margin-left: 120px;
+    margin-top: 30px;
+  }
+  .blue .p1 {
+    margin-left: 120px;
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .blue .p1 a {
+    color: white;
+  }
+  .blue .p2 {
+    margin-left: 120px;
+    color: white;
+    font-size: 15px;
+    width: 250px;
+    margin-top: 5px;
+  }
+  .blue .p3 {
+    margin-left: 120px;
+    margin-top: 30px;
+    font-size: 20px;
+    position: absolute;
+  }
+  .blue .p3 a {
+    color: white;
+    text-decoration: none;
+  }
+  .blue .p4 {
+    display: none;
+  }
+  .blue .p5 {
+    color: white;
+    margin-left: 200px;
+    margin-top: 25px;
+    position: absolute;
+    font-size: 20px;
+    width: 200px;
+  }
+  .blue .block {
+    background-color: white;
+    width: 2px;
+    height: 50px;
+    margin-left: 180px;
+    margin-top: 20px;
+    position: absolute;
+  }
+}
+@media (max-width: 640px) {
+  .blue button {
+    border: none;
+    text-align: center;
+    margin-left: 220px;
+    margin-top: 30px;
+  }
+  .blue button p {
+    font-size: 40px;
+    background-color: #e0e2f4;
+    padding: 5px 10px 5px 10px;
+    color: #0414a7;
+  }
+  .blue button:focus {
+    outline: none;
+    border: none;
+  }
+  .blue .header {
+    color: white;
+    font-size: 18px;
+    margin-left: 220px;
+    margin-top: 30px;
+  }
+  .blue .p1 {
+    margin-left: 220px;
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .blue .p1 a {
+    color: white;
+  }
+  .blue .p2 {
+    margin-left: 220px;
+    color: white;
+    font-size: 15px;
+    width: 250px;
+    margin-top: 5px;
+  }
+  .blue .p3 {
+    margin-left: 220px;
+    margin-top: 30px;
+    font-size: 20px;
+    position: absolute;
+  }
+  .blue .p3 a {
+    color: white;
+    text-decoration: none;
+  }
+  .blue .p4 {
+    display: none;
+  }
+  .blue .p5 {
+    color: white;
+    margin-left: 300px;
+    margin-top: 25px;
+    position: absolute;
+    font-size: 20px;
+    width: 200px;
+  }
+  .blue .block {
+    background-color: white;
+    width: 2px;
+    height: 50px;
+    margin-left: 280px;
+    margin-top: 20px;
+    position: absolute;
+  }
+}
+@media (max-width: 360px) {
+  .blue button {
+    border: none;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 50px;
+  }
+  .blue button p {
+    font-size: 50px;
+    background-color: #e0e2f4;
+    padding: 5px 10px 5px 10px;
+    color: #0414a7;
+  }
+  .blue button:focus {
+    outline: none;
+    border: none;
+  }
+  .blue .header {
+    color: white;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 30px;
+    width: 300px;
+  }
+  .blue .p1 {
+    margin-left: 90px;
+    margin-top: 5px;
+    font-size: 18px;
+  }
+  .blue .p1 a {
+    color: white;
+  }
+  .blue .p2 {
+    margin-left: 90px;
+    color: white;
+    font-size: 18px;
+    width: 290px;
+    margin-top: 5px;
+  }
+  .blue .p3 {
+    margin-left: 180px;
+    margin-top: 40px;
+    font-size: 25px;
+    position: absolute;
+  }
+  .blue .p3 a {
+    color: white;
+    text-decoration: none;
+  }
+  .blue .p4 {
+    display: none;
+  }
+  .blue .p5 {
+    color: white;
+    margin-left: 125px;
+    margin-top: 100px;
+    position: absolute;
+    font-size: 25px;
+    width: 200px;
+  }
+  .blue .block {
+    background-color: white;
+    width: 2px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 30px;
+    position: absolute;
+  }
+}
+@media (max-width: 412px) {
+  .blue button {
+    border: none;
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 30px;
+  }
+  .blue button p {
+    font-size: 60px;
+    background-color: #e0e2f4;
+    padding: 5px 10px 5px 10px;
+    color: #0414a7;
+  }
+  .blue button:focus {
+    outline: none;
+    border: none;
+  }
+  .blue .header {
+    color: white;
+    font-size: 22px;
+    margin-left: 110px;
+    margin-top: 30px;
+  }
+  .blue .p1 {
+    margin-left: 110px;
+    margin-top: 5px;
+    font-size: 18px;
+  }
+  .blue .p1 a {
+    color: white;
+  }
+  .blue .p2 {
+    margin-left: 110px;
+    color: white;
+    font-size: 18px;
+    width: 300px;
+    margin-top: 5px;
+  }
+  .blue .p3 {
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 20px;
+    position: absolute;
+  }
+  .blue .p3 a {
+    color: white;
+    text-decoration: none;
+  }
+  .blue .p4 {
+    display: none;
+  }
+  .blue .p5 {
+    color: white;
+    margin-left: 300px;
+    margin-top: 25px;
+    position: absolute;
+    font-size: 20px;
+    width: 200px;
+  }
+  .blue .block {
+    background-color: white;
+    width: 2px;
+    height: 50px;
+    margin-left: 280px;
+    margin-top: 20px;
+    position: absolute;
+  }
+}
